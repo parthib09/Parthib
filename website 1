@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Center</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav> 
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#personal-training">Personal Training</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#schedule-a-tour">Schedule a Tour</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero">
+    <h1>Welcome to Fitness Center</h1>
+    <p>We offer a wide range of gym services, including cardio and weight training equipment, group fitness classes, and more.</p>
+    <a href="#services" class="cta-button">Learn More</a>
+  </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We offer a wide range of gym services, including cardio and weight training equipment, group fitness classes, and more.</p>
+    <img src="pics -7.jpg" alt="Gym Services">
+  </section>
+  <section id="personal-training">
+    <h2>Personal Training</h2>
+    <p>Our certified personal trainers can help you achieve your fitness goals with customized workout plans and one-on-one instruction.</p>
+    <img src="pics -8.jpg" alt="Personal Training">
+    <a href="#pricing" class="cta-button">View Pricing</a>
+  </section>
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p>We offer a variety of membership options to fit your needs and budget.</p>
+    <a href="#schedule-a-tour" class="cta-button">Sign Up Now</a>
+  </section>
+  <section id="schedule-a-tour">
+    <h2>Schedule a Tour</h2>
+    <p>Visit our gym and see what we have to offer. Fill out the form below to schedule a tour.</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone">
+      <label for="date">Preferred Tour Date:</label>
+      <input type="date" id="date" name="date">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <footer>
+    <p>Copyright ©2022 Fitness Center</p>
+    <p styles = "align: Center;">Parthib Maity</p>
+  </footer>
+</body>
+</html>
